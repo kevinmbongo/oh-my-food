@@ -1,1 +1,10 @@
-{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AAAA;EACE,iCAAA;ACCF;;ADEA;;;;;;EAME,oCAAA;ACCF","file":"main.css"}
+{
+  "version": 3,
+  "sources": [
+    "main.scss",
+    "main.css"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACE,iCAAA;ACCF;;ADMA;;;;;;EAME,oCAAA;ACHF;;ADMA;;;;;;;EAOE,SAAA;ACHF",
+  "file": "main.css"
+}

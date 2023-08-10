@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+$primary: #9356dc;
+$secondary: #ff79da;
+$tertiary: #99e2d0;
+
 h1,
 h2,
 h3,
@@ -9,4 +13,14 @@ h4,
 h5,
 h6 {
   font-family: "Shrikhand", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
