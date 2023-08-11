@@ -32,7 +32,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 13px 0;
+  padding: 14px 0;
   img {
     width: 197px;
   }
@@ -62,14 +62,19 @@ footer {
     font-size: 16px;
 
     .footer-nav__links {
+      display: flex;
       color: #fff;
       text-decoration: none;
       font-weight: 400;
+      gap: 11px;
       &:hover {
         text-decoration: none;
       }
       &--bold {
         font-weight: 600;
+      }
+      i {
+        width: 20px;
       }
     }
   }

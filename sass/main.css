@@ -28,7 +28,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 13px 0;
+  padding: 14px 0;
 }
 header img {
   width: 197px;
@@ -58,13 +58,18 @@ footer .footer-nav {
   font-size: 16px;
 }
 footer .footer-nav .footer-nav__links {
+  display: flex;
   color: #fff;
   text-decoration: none;
   font-weight: 400;
+  gap: 11px;
 }
 footer .footer-nav .footer-nav__links:hover {
   text-decoration: none;
 }
 footer .footer-nav .footer-nav__links--bold {
   font-weight: 600;
+}
+footer .footer-nav .footer-nav__links i {
+  width: 20px;
 }/*# sourceMappingURL=main.css.map */
