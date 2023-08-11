@@ -23,17 +23,6 @@ p {
   margin: 0;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 14px 0;
-}
-header img {
-  width: 197px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -72,4 +61,15 @@ footer .footer-nav .footer-nav__links--bold {
 }
 footer .footer-nav .footer-nav__links i {
   width: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0;
+}
+header img {
+  width: 197px;
 }/*# sourceMappingURL=main.css.map */
