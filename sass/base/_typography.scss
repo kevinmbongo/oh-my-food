@@ -5,11 +5,7 @@
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Shrikhand", sans-serif;
 }
 
@@ -21,4 +17,11 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
