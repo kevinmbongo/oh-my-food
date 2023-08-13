@@ -10,3 +10,18 @@
   display: flex;
   flex-direction: column;
 }
+
+@mixin centered__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin avatar($hidden: false) {
+  @if $hidden {
+    opacity: 0;
+    &--fill {
+      opacity: 1;
+    }
+  }
+}

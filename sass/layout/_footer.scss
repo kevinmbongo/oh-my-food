@@ -14,8 +14,7 @@ footer {
     line-height: normal;
   }
   .footer-nav {
-    display: flex;
-    flex-direction: column;
+    @include flex__col;
     align-items: start;
     gap: 7px;
     font-size: 16px;

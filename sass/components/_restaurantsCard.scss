@@ -1,0 +1,61 @@
+.restaurant__card {
+  border-radius: 15px;
+  transition: all 0.3s ease-out;
+  @include button__hover;
+
+  &__image {
+    width: 346px;
+    height: 231px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 25px 12px 13px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+
+    &__text {
+      @include flex__col;
+      gap: 5px;
+      width: 100%;
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+    &__icon {
+      display: flex;
+      position: relative;
+      align-items: start;
+      font-size: 21px;
+      color: black;
+      transition: all 0.3s ease-out;
+      width: 22px;
+      height: 22px;
+
+      &--empty {
+        position: absolute;
+        inset: 0;
+        opacity: 1;
+        z-index: 1;
+        &:hover {
+          visibility: visible;
+          @include avatar(true);
+        }
+      }
+      &--fill {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+      }
+    }
+  }
+}

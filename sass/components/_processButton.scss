@@ -12,9 +12,7 @@
   @include button__hover;
 
   &__number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centered__flex;
     width: 24px;
     height: 24px;
     border-radius: 100%;
