@@ -12,8 +12,7 @@
 }
 
 .reservation {
-  display: flex;
-  flex-direction: column;
+  @include flex__col;
   justify-content: center;
   align-items: center;
   padding: 40px 17px;
@@ -35,4 +34,17 @@
       line-height: normal;
     }
   }
+}
+
+.process__contain {
+  @include flex__col;
+  padding: 48px 20px 68px 32px;
+}
+.process {
+  @include flex__col;
+  gap: 28px;
+}
+.process__steps {
+  @include flex__col;
+  gap: 25px;
 }

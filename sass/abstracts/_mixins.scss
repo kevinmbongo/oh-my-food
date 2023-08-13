@@ -1,0 +1,12 @@
+@mixin button__hover {
+  &:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    box-shadow: 3px 7px 17px 7px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}

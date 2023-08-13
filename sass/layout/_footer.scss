@@ -1,6 +1,5 @@
 footer {
-  display: flex;
-  flex-direction: column;
+  @include flex__col;
   align-items: start;
   padding: 22px 25px;
   margin: 0;

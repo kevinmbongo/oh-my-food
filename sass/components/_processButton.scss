@@ -1,0 +1,39 @@
+.process__button {
+  display: flex;
+  padding: 28px 0;
+  align-items: center;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  background-color: $background;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  gap: 10px;
+  transition: all 0.3s ease-out;
+  @include button__hover;
+
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: $primary;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transform: translate(-50%);
+  }
+  &__icon {
+    color: $grey-tint-4;
+    font-size: 20px;
+    &--active {
+      color: $primary;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

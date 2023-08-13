@@ -26,6 +26,7 @@
     <header>
       <img src="asset/images/logo/ohmyfood.png" alt="logo" />
     </header>
+
     <main>
       <section>
         <div class="location">
@@ -46,11 +47,43 @@
           </div>
         </div>
       </section>
-      <section>
-        <h3>Fonctionnement</h3>
-        <button>Choisissez un restaurant</button>
+      <section class="process__contain">
+        <div class="process">
+          <h3>Fonctionnement</h3>
+          <div class="process__steps">
+            <a href="#">
+              <button class="process__button">
+                <div class="process__button__number">1</div>
+                <i class="process__button__icon fa-solid fa-mobile-screen-button";"></i>
+                <span class="process__button__text">
+                  Choisissez un restaurant
+                </span>
+              </button>
+            </a>
+            <a href="#">
+              <button class="process__button">
+                <div class="process__button__number">2</div>
+                
+                <i class=" process__button__icon fa-solid fa-list-ul"></i>
+                <span class="process__button__text">
+                Composez votre menu
+                </span>
+              </button>
+            </a> 
+            <a href="#">
+              <button class="process__button">
+                <div class="process__button__number">3</div>
+                <i class="process__button__icon process__button__icon--active fa-solid fa-store"></i>
+                <span class="process__button__text">
+                  Dégustez au restaurant
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
       </section>
     </main>
+
     <footer>
       <h2>ohmyfood</h2>
       <nav class="footer-nav">
