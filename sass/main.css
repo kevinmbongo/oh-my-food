@@ -123,7 +123,7 @@ header img {
 .process__contain {
   display: flex;
   flex-direction: column;
-  padding: 48px 20px 68px 20px;
+  padding: 48px 20px 68px 32px;
 }
 
 .process {
@@ -169,7 +169,6 @@ header img {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   gap: 10px;
   transition: all 0.3s ease-out;
-  text-decoration: none;
 }
 .process__button:hover {
   cursor: pointer;
