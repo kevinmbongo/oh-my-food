@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-@mixin avatar($hidden: false) {
+@mixin hide($hidden: false) {
   @if $hidden {
     opacity: 0;
     &--fill {
