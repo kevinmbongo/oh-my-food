@@ -1,11 +1,28 @@
 .restaurant__card {
+  position: relative;
+  width: 90vw;
   border-radius: 15px;
   transition: all 0.3s ease-out;
   @include button__hover;
 
+  .restaurant__card__badge {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    border-radius: 2px;
+    padding: 7px 9px;
+    background-color: $tertiary;
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      color: $green-font;
+    }
+  }
+
   &__image {
-    width: 346px;
-    height: 231px;
+    width: 90vw;
+    height: 200px;
     border-radius: 15px 15px 0 0;
   }
 
