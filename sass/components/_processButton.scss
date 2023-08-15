@@ -10,7 +10,11 @@
   gap: 10px;
   transition: all 0.3s ease-out;
   @include button__hover;
-
+  &:hover {
+    .icon--active {
+      color: $primary;
+    }
+  }
   &__number {
     @include centered__flex;
     width: 24px;
@@ -25,9 +29,6 @@
   &__icon {
     color: $grey-tint-4;
     font-size: 20px;
-    &--active {
-      color: $primary;
-    }
   }
 
   &__text {
