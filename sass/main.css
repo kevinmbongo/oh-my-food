@@ -172,6 +172,27 @@ header img {
   gap: 18px;
 }
 
+.image__contain {
+  position: relative;
+  z-index: -1;
+}
+.image__contain img {
+  width: 100vw;
+  height: 275px;
+}
+
+.cart__contain {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -60px;
+  z-index: 0;
+  background-color: #f6f6f6;
+  border-radius: 40px 40px 0 0;
+  padding: 30px 13px 40px 13px;
+  gap: 40px;
+}
+
 .button {
   text-align: center;
   color: white;
