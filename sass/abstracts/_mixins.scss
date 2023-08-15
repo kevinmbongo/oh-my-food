@@ -20,7 +20,7 @@
 @mixin hide($hidden: false) {
   @if $hidden {
     opacity: 0;
-    &--fill {
+    .icon__fill {
       opacity: 1;
     }
   }

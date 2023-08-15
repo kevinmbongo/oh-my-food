@@ -307,10 +307,10 @@ header img {
   visibility: visible;
   opacity: 0;
 }
-.restaurant__card__content__icon--empty:hover--fill {
+.restaurant__card__content__icon--empty:hover .icon__fill {
   opacity: 1;
 }
-.restaurant__card__content__icon--fill {
+.restaurant__card__content__icon .icon__fill {
   position: absolute;
   inset: 0;
   z-index: 0;
