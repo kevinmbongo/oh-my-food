@@ -16,6 +16,10 @@
     padding-right: 75px;
     .menu__card__select__box {
       right: 0;
+      i {
+        transition: all 0.3s ease-out;
+        transform: rotate(-360deg);
+      }
     }
   }
   &__text {
