@@ -101,6 +101,72 @@ header img {
   width: 197px;
 }
 
+.main__paletteOfTaste {
+  position: relative;
+}
+
+.image__contain {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+}
+.image__contain img {
+  width: 100vw;
+  height: 275px;
+}
+
+.menu__contain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  background-color: #f6f6f6;
+  border-radius: 40px 40px 0 0;
+  padding: 30px 13px 40px 13px;
+  gap: 40px;
+}
+
+.menu__title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.menu__title h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.menu__title svg {
+  padding: 0 24px;
+  font-size: 21px;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.menus__title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.menus__title:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #99e2d0;
+  margin-top: 7px;
+}
+
+.submit__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -170,72 +236,6 @@ header img {
   display: flex;
   flex-direction: column;
   gap: 18px;
-}
-
-.main__paletteOfTaste {
-  position: relative;
-}
-
-.image__contain {
-  position: absolute;
-  z-index: -1;
-  top: -200px;
-}
-.image__contain img {
-  width: 100vw;
-  height: 275px;
-}
-
-.menu__contain {
-  display: flex;
-  flex-direction: column;
-  margin-top: 200px;
-  background-color: #f6f6f6;
-  border-radius: 40px 40px 0 0;
-  padding: 30px 13px 40px 13px;
-  gap: 40px;
-}
-
-.menu__title {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
-.menu__title h1 {
-  font-size: 28px;
-  font-weight: 400;
-}
-.menu__title svg {
-  padding: 0 24px;
-  font-size: 21px;
-}
-
-.menus {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.menus__title {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.menus__title:after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 3px;
-  background-color: #99e2d0;
-  margin-top: 7px;
-}
-
-.submit__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .button {
