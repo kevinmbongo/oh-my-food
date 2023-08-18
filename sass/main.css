@@ -172,7 +172,7 @@ header img {
   gap: 18px;
 }
 
-.main__firstPage {
+.main__paletteOfTaste {
   position: relative;
 }
 
@@ -415,7 +415,7 @@ header img {
   display: flex;
   flex-direction: column;
   text-align: start;
-  width: 90%;
+  width: 85%;
   gap: 5px;
 }
 .menu__card__text--title {
