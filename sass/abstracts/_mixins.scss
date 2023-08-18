@@ -25,3 +25,51 @@
     }
   }
 }
+
+@mixin appear__opacity {
+  .appears__opacity {
+    animation: appearance 1s both;
+  }
+
+  #case1 {
+    animation-delay: 0.1s;
+  }
+  #case2 {
+    animation-delay: 0.2s;
+  }
+  #case3 {
+    animation-delay: 0.3s;
+  }
+  #case4 {
+    animation-delay: 0.4s;
+  }
+  #case5 {
+    animation-delay: 0.5s;
+  }
+  #case6 {
+    animation-delay: 0.6s;
+  }
+  #case7 {
+    animation-delay: 0.7s;
+  }
+  #case8 {
+    animation-delay: 0.8s;
+  }
+  #case9 {
+    animation-delay: 0.9s;
+  }
+
+  @keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}

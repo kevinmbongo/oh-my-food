@@ -12,6 +12,7 @@
   transition: all 0.3s ease-out;
   overflow: hidden;
   @include button__hover;
+
   &:hover {
     padding-right: 75px;
     .menu__card__select__box {
@@ -25,7 +26,7 @@
   &__text {
     @include flex__col;
     text-align: start;
-    width: 100%;
+    width: 90%;
     gap: 5px;
     &--title {
       white-space: nowrap;
@@ -68,3 +69,4 @@
     }
   }
 }
+@include appear__opacity;
