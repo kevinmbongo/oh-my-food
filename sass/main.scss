@@ -9,13 +9,14 @@
 // Layout
 @import "layout/footer";
 @import "layout/header";
-@import "layout/restaurantsMenu";
 
 // Pages
 @import "pages/home";
+@import "pages/menuPages";
 
 // Components
 @import "components/button";
 @import "components/processButton";
 @import "components/restaurantsCard";
 @import "components/menuCard";
+@import "components/submitButton";
