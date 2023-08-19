@@ -101,6 +101,10 @@ header img {
   width: 197px;
 }
 
+.body__color {
+  background-color: #f6f6f6;
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -121,6 +125,7 @@ header img {
   align-items: center;
   padding: 40px 17px;
   gap: 27px;
+  background-color: #f6f6f6;
 }
 .reservation__title {
   display: flex;
@@ -138,38 +143,86 @@ header img {
   font-weight: 300;
   line-height: normal;
 }
+@media screen and (min-width: 1024px) {
+  .reservation__title {
+    gap: 27px;
+  }
+  .reservation__title h3 {
+    font-size: 40px;
+  }
+}
+
+.background__white {
+  background-color: white;
+}
 
 .process__contain {
   display: flex;
   flex-direction: column;
   padding: 48px 20px 68px 32px;
+  background-color: white;
+}
+@media screen and (min-width: 1024px) {
+  .process__contain {
+    margin: auto;
+    max-width: 1080px;
+  }
 }
 .process__contain__process {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
+@media screen and (min-width: 1024px) {
+  .process__contain__process {
+    justify-items: center;
+    max-width: 1080px;
+  }
+}
 .process__contain__process__steps {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+@media screen and (min-width: 1024px) {
+  .process__contain__process__steps {
+    flex-direction: row;
+    gap: 32px;
+  }
 }
 
 .restaurants__contain {
   display: flex;
   flex-direction: column;
   padding: 54px 18px 66px 18px;
-  background-color: #f6f6f6;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__contain {
+    max-width: 1080px;
+    margin: auto;
+  }
 }
 .restaurants__contain__restaurants {
   display: flex;
   flex-direction: column;
   gap: 28px;
 }
+@media screen and (min-width: 1024px) {
+  .restaurants__contain__restaurants {
+    max-width: 1080px;
+  }
+}
 .restaurants__contain__restaurants__cards {
   display: flex;
   flex-direction: column;
   gap: 18px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__contain__restaurants__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 50px 100px;
+  }
 }
 
 .main__paletteOfTaste {
@@ -305,6 +358,11 @@ header img {
   opacity: 0.85;
   box-shadow: 3px 7px 17px 7px rgba(0, 0, 0, 0.35);
 }
+@media screen and (min-width: 1024px) {
+  .restaurant__card {
+    width: 100%;
+  }
+}
 .restaurant__card .restaurant__card__badge {
   position: absolute;
   top: 13px;
@@ -323,6 +381,11 @@ header img {
   width: 90vw;
   height: 200px;
   border-radius: 15px 15px 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .restaurant__card__image {
+    width: 100%;
+  }
 }
 .restaurant__card__content {
   display: flex;

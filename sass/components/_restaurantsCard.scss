@@ -2,8 +2,11 @@
   position: relative;
   width: 90vw;
   border-radius: 15px;
-   @include transition;
+  @include transition;
   @include button__hover;
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+  }
 
   .restaurant__card__badge {
     position: absolute;
@@ -24,6 +27,9 @@
     width: 90vw;
     height: 200px;
     border-radius: 15px 15px 0 0;
+    @media screen and (min-width: 1024px) {
+      width: 100%;
+    }
   }
 
   &__content {
