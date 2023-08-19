@@ -5,6 +5,12 @@ footer {
   margin: 0;
   background-color: $grey;
   gap: 16px;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 100px;
+    padding: 25px 50px;
+  }
 
   h2 {
     color: #fff;
@@ -12,12 +18,20 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media screen and (min-width: 1024px) {
+      font-size: 20px;
+    }
   }
   .footer-nav {
     @include flex__col;
     align-items: start;
     gap: 7px;
     font-size: 16px;
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+      align-items: center;
+      gap: 50px;
+    }
 
     .footer-nav__links {
       display: flex;
@@ -25,6 +39,7 @@ footer {
       text-decoration: none;
       font-weight: 400;
       gap: 11px;
+
       &:hover {
         text-decoration: none;
       }
