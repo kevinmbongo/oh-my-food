@@ -20,3 +20,7 @@
   transition: all 0.3s ease-out;
   @include button__hover;
 }
+.loader {
+  font-size: 25px;
+  color: $primary;
+}
