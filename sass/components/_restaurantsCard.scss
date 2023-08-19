@@ -2,7 +2,7 @@
   position: relative;
   width: 90vw;
   border-radius: 15px;
-  transition: all 0.3s ease-out;
+   @include transition;
   @include button__hover;
 
   .restaurant__card__badge {

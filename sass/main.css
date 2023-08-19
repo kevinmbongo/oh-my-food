@@ -244,7 +244,7 @@ header img {
   border: none;
   background: var(--button-gradient, linear-gradient(175deg, #ff79da 0%, #9356dc 100%));
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .button:hover {
   cursor: pointer;
@@ -262,7 +262,7 @@ header img {
   background-color: #f6f6f6;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   gap: 10px;
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .process__button:hover {
   cursor: pointer;
@@ -298,7 +298,7 @@ header img {
   position: relative;
   width: 90vw;
   border-radius: 15px;
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .restaurant__card:hover {
   cursor: pointer;
@@ -381,13 +381,12 @@ header img {
   display: flex;
   align-items: end;
   padding: 15px;
-  width: 100%;
   border-radius: 20px;
   border: none;
   background-color: #f6f6f6;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
   gap: 5px;
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
   overflow: hidden;
 }
 .menu__card:hover {
@@ -402,7 +401,7 @@ header img {
   right: 0;
 }
 .menu__card:hover .menu__card__select__box i {
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
   transform: rotate(-360deg);
 }
 .menu__card__text {
@@ -443,7 +442,7 @@ header img {
   border-radius: 0 15px 15px 0;
   width: 60px;
   background-color: #99e2d0;
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .menu__card__select__box i {
   color: white;
@@ -519,7 +518,7 @@ header img {
   border: none;
   background: var(--button-gradient, linear-gradient(175deg, #ff79da 0%, #9356dc 100%));
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  transition: all 0.3s ease-out;
+  transition: all 0.4s ease-out;
 }
 .submit__button:hover {
   cursor: pointer;

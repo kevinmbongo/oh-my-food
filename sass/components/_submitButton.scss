@@ -17,7 +17,7 @@
     linear-gradient(175deg, $secondary 0%, $primary 100%)
   );
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  transition: all 0.3s ease-out;
+  @include transition;
   @include button__hover;
 }
 .loader {
