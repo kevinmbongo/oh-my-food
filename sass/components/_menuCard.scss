@@ -11,9 +11,15 @@
   @include transition;
   overflow: hidden;
   @include button__hover;
+  @media screen and (min-width: 760px) {
+    justify-content: space-between;
+  }
 
   &:hover {
     padding-right: 75px;
+    @media screen and (min-width: 760px) {
+      padding-right: 90px;
+    }
     .menu__card__select__box {
       right: 0;
       i {
@@ -61,6 +67,10 @@
     width: 60px;
     background-color: $tertiary;
     @include transition;
+    @media screen and (min-width: 760px) {
+      right: -75px;
+      width: 75px;
+    }
 
     i {
       color: white;
