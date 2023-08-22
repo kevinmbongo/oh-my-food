@@ -142,10 +142,6 @@ header img {
   width: 197px;
 }
 
-.body__color {
-  background-color: #f6f6f6;
-}
-
 .location {
   display: flex;
   justify-content: center;
@@ -195,6 +191,10 @@ header img {
 
 .background__white {
   background-color: white;
+}
+
+.background {
+  background-color: #f6f6f6;
 }
 
 .process__contain {

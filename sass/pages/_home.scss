@@ -1,7 +1,3 @@
-.body__color {
-  background-color: $background;
-}
-
 .location {
   @include centered__flex;
   gap: 17px;
@@ -46,6 +42,9 @@
 
 .background__white {
   background-color: white;
+}
+.background {
+  background-color: $background;
 }
 
 .process__contain {
