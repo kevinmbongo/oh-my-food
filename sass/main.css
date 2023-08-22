@@ -262,6 +262,11 @@ header img {
   .restaurants__contain__restaurants__cards {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .restaurants__contain__restaurants__cards {
     gap: 50px 100px;
   }
 }
@@ -374,6 +379,11 @@ header img {
   cursor: pointer;
   opacity: 0.85;
   box-shadow: 3px 7px 17px 7px rgba(0, 0, 0, 0.35);
+}
+@media screen and (min-width: 760px) {
+  .process__button {
+    padding: 28px 10px 28px 0;
+  }
 }
 .process__button:hover .icon--active {
   color: #9356dc;
