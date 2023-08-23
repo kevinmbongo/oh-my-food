@@ -1,0 +1,78 @@
+@mixin button__hover {
+  &:hover {
+    cursor: pointer;
+    opacity: 0.85;
+    box-shadow: 3px 7px 17px 7px rgba(0, 0, 0, 0.35);
+  }
+}
+
+@mixin flex__col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin centered__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin hide($hidden: false) {
+  @if $hidden {
+    opacity: 0;
+    .icon__fill {
+      opacity: 1;
+    }
+  }
+}
+@mixin transition {
+  transition: all 0.4s ease-out;
+}
+
+@mixin appear__opacity {
+  .appears__opacity {
+    animation: appearance 1s both;
+  }
+
+  #case1 {
+    animation-delay: 0.1s;
+  }
+  #case2 {
+    animation-delay: 0.2s;
+  }
+  #case3 {
+    animation-delay: 0.3s;
+  }
+  #case4 {
+    animation-delay: 0.4s;
+  }
+  #case5 {
+    animation-delay: 0.5s;
+  }
+  #case6 {
+    animation-delay: 0.6s;
+  }
+  #case7 {
+    animation-delay: 0.7s;
+  }
+  #case8 {
+    animation-delay: 0.8s;
+  }
+  #case9 {
+    animation-delay: 0.9s;
+  }
+
+  @keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}

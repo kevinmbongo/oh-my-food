@@ -1,0 +1,84 @@
+.restaurant__card {
+  position: relative;
+  width: 90vw;
+  border-radius: 15px;
+  @include transition;
+  @include button__hover;
+  @media screen and (min-width: 760px) {
+    width: 100%;
+  }
+
+  .restaurant__card__badge {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    border-radius: 2px;
+    padding: 7px 9px;
+    background-color: $tertiary;
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      color: $green-font;
+    }
+  }
+
+  &__image {
+    width: 90vw;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    @media screen and (min-width: 760px) {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 25px 12px 13px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+
+    &__text {
+      @include flex__col;
+      gap: 5px;
+      width: 100%;
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+    &__icon {
+      display: flex;
+      position: relative;
+      align-items: start;
+      font-size: 21px;
+      color: black;
+      width: 22px;
+      height: 22px;
+
+      &--empty {
+        position: absolute;
+        inset: 0;
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.55s ease-out;
+        &:hover {
+          visibility: visible;
+          @include hide(true);
+        }
+      }
+      .icon__fill {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+      }
+    }
+  }
+}

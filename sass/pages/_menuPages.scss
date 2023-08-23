@@ -1,0 +1,65 @@
+.main__paletteOfTaste {
+  position: relative;
+}
+
+.image__contain {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+
+  img {
+    width: 100vw;
+    height: 275px;
+  }
+}
+.menu__contain {
+  @include flex__col;
+  margin-top: 200px;
+  background-color: $background;
+  border-radius: 40px 40px 0 0;
+  padding: 30px 13px 40px 13px;
+  gap: 40px;
+  @media screen and (min-width: 760px) {
+    max-width: 600px;
+    margin: 200px auto 0 auto;
+    padding: 40px 150px;
+  }
+}
+
+.menu__title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  @media screen and (min-width: 760px) {
+    justify-content: center;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  svg {
+    padding: 0 24px;
+    font-size: 21px;
+  }
+}
+.menus {
+  @include flex__col;
+  gap: 12px;
+  &__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    &:after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background-color: $tertiary;
+      margin-top: 7px;
+    }
+  }
+}
