@@ -17,14 +17,6 @@
   align-items: center;
 }
 
-@mixin hide($hidden: false) {
-  @if $hidden {
-    opacity: 0;
-    .icon__fill {
-      opacity: 1;
-    }
-  }
-}
 
 @mixin transition {
   transition: all 0.4s ease-out;
