@@ -70,7 +70,6 @@
         z-index: 1;
         transition: all 0.55s ease-out;
         &:hover {
-          visibility: visible;
           @include hide(true);
         }
       }

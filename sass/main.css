@@ -490,7 +490,6 @@ header img {
   transition: all 0.55s ease-out;
 }
 .restaurant__card__content__icon--empty:hover {
-  visibility: visible;
   opacity: 0;
 }
 .restaurant__card__content__icon--empty:hover .icon__fill {
